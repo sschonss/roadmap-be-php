@@ -34,6 +34,7 @@ graph TB
         C8[Eventos e Mensageria: RabbitMQ, Kafka]
         C9[Princípios de Clean Architecture]
         C10[Object Calisthenics para Código Limpo]
+        C11[Engajamento na Comunidade e Open Source]
     end
 
     subgraph Senior
@@ -56,7 +57,6 @@ graph TB
         E4[Liderança de Equipes e Projetos Multidisciplinares]
         E5[Automação de Infraestrutura: Terraform/Ansible]
         E6[Comunicação com Stakeholders Altos]
-        E7[Engajamento na Comunidade e Open Source]
         E8[Implementação de Arquitetura Event-Driven]
         E9[Gerenciamento de Processos Complexos com End-to-End Testing]
     end
@@ -72,28 +72,30 @@ graph TB
     B2 --> C2
     B3 --> C3
     B4 --> C4
-    B5 --> C6
-    B6 --> C7
-    B7 --> C8
+    B5 --> C4
+    B6 --> C5
+    B7 --> C6
+    B7 --> C7
     B8 --> C9
+    B8 --> C10
     C1 --> D1
     C2 --> D2
     C3 --> D3
     C4 --> D4
     C5 --> D5
-    C6 --> D6
     C7 --> D7
+    C7 --> D8
     C8 --> D8
     C9 --> D9
     C10 --> D10
     D1 --> E1
-    D2 --> E2
+    D2 --> E1
     D3 --> E3
-    D4 --> E4
-    D5 --> E5
-    D6 --> E6
-    D7 --> E7
-    D8 --> E8
-    D9 --> E9
+    D4 --> E2
+    D5 --> E4
+    D6 --> E5
+    D7 --> E8
+    D8 --> E6
+
 
 ```
